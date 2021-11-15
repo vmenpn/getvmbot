@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "voltaic-branch-327600",
+  "private_key_id": "38ff1c496ad0922dd282b6760a5384eb67414db7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+Wt5Xuhfmiaqc\n//xp9oPWbau4eBgaSJnDTWsj3RTaQHEc9RK8DUmTfYuSIAryqWG8Dzydki7vJ/H9\nCjjqNJpO4DWOoM2UqXlWkp5DFBbwMaWknnWatxm8IdH+oHNRH/lcQKsa7Tc31xYE\nOE5NeEQmvbysCgIjuAyc/gD9ZCvOFMA/fEPOkJ+Ns3lHaZVXSOqZu75Bvow11S+Q\nSAz1OY6Iohm3W+YczG3BUuN6NBQEvdJ3RgOySTAEuLYG65X40GxaXdnzOTrSBvS6\nEba03XFQ+7btLJ3kPUlUrWeFQHd1oR4xgoNrzc5RCsNI4c2szu5fduMfdT9hiMOq\nLsDBQSRtAgMBAAECggEABmN3VdtlhPO22akPuCCxYQdyPXEuYedw3aiiAWSgmAiU\no0OoWs5ZW01Z21Ae/fDoWk7qmmE3GQiuqu7mZRnZ2e7VbVGBRM2BSIIINLkeYfZQ\nmFtHGCewAevip9iLtjvL+ygidfdjJIkf8IlRO3FfXCt/Awkc9ETvi29M6jQr8jEa\nRvgo39yHq4BnN9xoTfMJUNfGJ4cC/DNhfgnDSzbEAxrLy8t3IWerWKk7gJROrGZB\nKpZWS6NgrQVYD/tZZapkvDv/AmRtU3B49NnKeNs71AbgQ0K3jlRWxXq9A3WLO2Eg\nB6Wk7Smvf9qf8cUVbfNcRpM3x7TcT/NXxX/A10xDsQKBgQDf8/rq+9VPe+PRqwoL\nrTbWQjSBE7xvgXU9kKNv0ypPfra1q45/fi/4PO0n8idVWeDpNsVHNy2o3KO1Pgoz\noefR7IJR6/b6jJh6QfA8N4kAwjGQ3OIwQZddM5ltuxELO2CXMqHzfwTqNTQ0irRx\nQ59rPXoQTWssh32Fty5eBt3W6QKBgQDZmBjnsIYtUs53GoaCWTKyLlDTsfmsIXKp\nYXBusjOmaII+cQgDEB1j2HrlgxEyRuRpH/iwnKp6BCxjRV6xMSoVjhIXBsz2b+/5\neK8Wb2WzviL6k3b4BItfquH8rTKLBYtCpJiuym/GioK41IVUJKgCAWYsZDV8JgdR\nLAee1mz25QKBgHSUyZXxqsVJtPq8kuopLVaz+CkJYRqaxbFazfm0b14alHpV6EQu\nKEKNVNdqk1c3BoHg5SmBa99vnDkJJr5iFg+NkvmaYGNlNSrPkIOIVWVzseG7WnPM\ncUMvTTt2GhVCv7F1xiC/iotxTs/bNLuRfDeTNSuvYY84qPsmtJh18p2hAoGAUOVg\nFPsm10Da66Lb8SgSVfYsLJgVV65Tv68vKqhr1WkzSt2g+eqK0q0P+7X/ta5virnN\nLnQAWT6l9f47VysNF1hrV0468z/oetooVfHyYKHGxVv/tfOSkW2peNQ3X0IfZRZm\ngU1XwvuJ4Ad6zi6Wm7BDeSuESvSkccQpzR6xAhUCgYEArZDntDATo/xRBOH7v5qK\nlpRxIaLkoy5mXplTXAOzXd7g13V9F42KWrMdx/cGdtXahhG8vqqIWAWOjW8etkgl\noMGkQWp2dvGUT5qG69BL9LK/d5RKmtpu3BPOiVLAKQy+axT9fT1UJUPLerd+nkKp\nGOJFI2o7sqLFriJ4JopebMk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mfc-rcxfu55357fn9adk2hh6jhwc-z@voltaic-branch-327600.iam.gserviceaccount.com",
+  "client_id": "101851424013328636010",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc-rcxfu55357fn9adk2hh6jhwc-z%40voltaic-branch-327600.iam.gserviceaccount.com"
+}
