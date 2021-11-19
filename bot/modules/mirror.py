@@ -192,7 +192,7 @@ class MirrorListener(listeners.MirrorListeners):
             uname = f"@{self.message.from_user.username}"
         else:
             uname = f'<a href="tg://user?id={self.message.from_user.id}">{self.message.from_user.first_name}</a>'
-        msg = f"{uname} Hãy kiểm tra lại link của bạn: {error}"
+        msg = f"{uname} Link lỗi hoặc dừng bới user: {error}"
         sendMessage(msg, self.bot, self.update)
         if count == 0:
             self.clean()
@@ -220,7 +220,7 @@ class MirrorListener(listeners.MirrorListeners):
                 chat_id = str(self.message.chat.id)[4:]
                 msg = f"<b>Name:</b> <a href='https://t.me/c/{chat_id}/{self.uid}'>{link}</a>\n"
                 msg += f'<b>Total Files:</b> {count}\n'
-                msg += f'cc: {uname}Tham gia teamdrive để có quyền truy cập\n\n'
+                msg += f'{uname}Vui lòng 🅹🅾🅸🅽 🆃🅴🅰🅼🅳🆁🅸🆅🅴  để có quyền truy cập\n\n'
                 fmsg = ''
                 for index, item in enumerate(list(files), start=1):
                     msg_id = files[item]
@@ -246,11 +246,11 @@ class MirrorListener(listeners.MirrorListeners):
         with download_dict_lock:
             msg = f'<b>📂Tên file: </b><code>{download_dict[self.uid].name()}</code>\n<b>📦Kích cỡ: </b><code>{size}</code>'
             if os.path.isdir(f'{DOWNLOAD_DIR}/{self.uid}/{download_dict[self.uid].name()}'):
-                msg += '\n<b>Type: </b><code>Folder</code>'
+                msg += '\n<b>Kiểu: </b><code>Folder</code>'
                 msg += f'\n<b>SubFolders: </b><code>{folders}</code>'
                 msg += f'\n<b>Files: </b><code>{files}</code>'
             else:
-                msg += f'\n<b>Type: </b><code>{typ}</code>'
+                msg += f'\n<b>Kiểu: </b><code>{typ}</code>'
             buttons = button_build.ButtonMaker()
             if SHORTENER is not None and SHORTENER_API is not None:
                 surl = short_url(link)
