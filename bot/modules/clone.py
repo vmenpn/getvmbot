@@ -23,7 +23,7 @@ def cloneNode(update, context):
             LOGGER.info('Checking File/Folder if already in Drive...')
             smsg, button = gd.drive_list(name, True, True)
             if smsg:
-                msg3 = "File/Folder is already available in Drive.\nHere are the search results:"
+                msg3 = "Tệp/Thư mục đã có sẵm trong Drive.\nĐây là kết quả tìm kiếm:"
                 sendMarkup(msg3, context.bot, update, button)
                 return
         if CLONE_LIMIT is not None:
