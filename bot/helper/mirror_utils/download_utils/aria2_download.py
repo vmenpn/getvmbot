@@ -30,9 +30,9 @@ class AriaDownloadHelper:
                 gdrive = GoogleDriveHelper()
                 smsg, button = gdrive.drive_list(sname, True)
             if smsg:
-                dl.getListener().onDownloadError('File/Folder already available in Drive.\n\n')
+                dl.getListener().onDownloadError('Tệp/Thư mục đã có sẵm trong Drive.\n\n')
                 aria2.remove([download], force=True)
-                sendMarkup("Here are the search results:", dl.getListener().bot, dl.getListener().update, button)
+                sendMarkup("Đây là kết quả tìm kiếm:", dl.getListener().bot, dl.getListener().update, button)
                 return
         if (TORRENT_DIRECT_LIMIT is not None or TAR_UNZIP_LIMIT is not None) and dl is not None:
             sleep(1)
